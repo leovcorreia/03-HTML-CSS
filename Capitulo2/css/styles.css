@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --color-red: #F03C42;
+    --color-white: #FFF;
+    --color-black: #000;
+    --bg-dark-blue: #222374;
+    --bg-gray: #CCC;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    border: 2px solid blue;
+}
+
+nav h1 {
+    color: var(--color-white);
+    font-size: 18px;
+    /*text-align: center;*/
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#space {
+    background-color: var(--bg-dark-blue);
+    height: 418px;
+    padding: 20px; /*VER ESSA MEDIDA DPS*/
+}
+
+#space h2 {
+    font-size: 32px;
+    color: var(--color-white);
+}
+
+.bloco-space {
+    background-color: var(--bg-gray);
+    width: 100%;
+    max-width: 960px;
+    border: 2px solid yellow;
+    margin: 0 auto; /*centraliza*/
+    height: 127px;
+    padding: 20px; /*VER ESSA MEDIDA DPS*/
+}
+
+.bloco-container h3{
+    font-size: 20px;
+}
+
+.bloco-container p{
+    font-size: 14px;
+}
+

@@ -1,0 +1,32 @@
+
+h1 {
+    color: red;
+    margin: 0px;
+}
+
+h2 {
+    color: rgb(109, 108, 46);
+}
+
+h1:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid green;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.teste { 
+    /* Box Model */
+    padding: 10px;
+    border: 10px solid red;
+    margin: 10px;
+    /* margin: 40px 30px 10px 5px; - sentido horário */
+    width: 200px;
+    height: 200px;
+}
