@@ -38,6 +38,24 @@ nav h1 {
     margin: 0 auto;
 }
 
+.container2 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bloco-modalities {
+    background-color: var(--bg-dark-blue);
+    padding: 40px; /*Ver essa medida dps*/
+}
+
+.bloco-modalities h3 {
+    color: var(--color-white);
+}
+
+.bloco-modalities p {
+    color: var(--bg-gray);
+}
+
 #space {
     background-color: var(--bg-dark-blue);
     height: 418px;
@@ -67,3 +85,39 @@ nav h1 {
     font-size: 14px;
 }
 
+#modalities {
+    background-color: var(--color-white);
+    height: 880px;
+    padding: 20px; /*VER ESSA MEDIDA DPS*/
+}
+
+#modalities h2 {
+    color: var(--color-red);
+    font-size: 32px;
+}
+
+#rodape {
+    background-color: var(--color-black);
+    height: 262px;
+    text-align: center;
+}
+
+#rodape a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+#rodape p {
+    color: var(--color-white);
+}
+
+#navegacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navegacao a {
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 14px;
+}
