@@ -22,14 +22,13 @@ header {
     align-items: center;
 }
 
-nav {
-    border: 2px solid blue;
-}
-
 nav h1 {
     color: var(--color-white);
     font-size: 18px;
-    /*text-align: center;*/
+}
+
+nav img {
+    padding: 5px;
 }
 
 .container {
@@ -38,14 +37,30 @@ nav h1 {
     margin: 0 auto;
 }
 
-.container2 {
-    width: 100%;
-    margin: 0 auto;
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacao a {
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.container address {
+    color: var(--color-white);
 }
 
 .bloco-modalities {
     background-color: var(--bg-dark-blue);
-    padding: 40px; /*Ver essa medida dps*/
+    padding: 20px; /*Ver essa medida dps*/
+    margin: 20px 0;
+    height: 106px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 9px;
 }
 
 .bloco-modalities h3 {
@@ -59,7 +74,7 @@ nav h1 {
 #space {
     background-color: var(--bg-dark-blue);
     height: 418px;
-    padding: 20px; /*VER ESSA MEDIDA DPS*/
+    padding: 30px 470px; /*VER ESSA MEDIDA DPS*/
 }
 
 #space h2 {
@@ -69,37 +84,33 @@ nav h1 {
 
 .bloco-space {
     background-color: var(--bg-gray);
-    width: 100%;
-    max-width: 960px;
-    border: 2px solid yellow;
-    margin: 0 auto; /*centraliza*/
+    border-radius: 9px;
+    margin: 20px 0; /*"espaço entre blocos*/
     height: 127px;
     padding: 20px; /*VER ESSA MEDIDA DPS*/
-}
-
-.bloco-container h3{
-    font-size: 20px;
-}
-
-.bloco-container p{
-    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #modalities {
     background-color: var(--color-white);
     height: 880px;
-    padding: 20px; /*VER ESSA MEDIDA DPS*/
+    padding: 20px 470px; /*VER ESSA MEDIDA DPS*/
 }
 
 #modalities h2 {
     color: var(--color-red);
     font-size: 32px;
+    margin-bottom: 40px;
 }
 
 #rodape {
     background-color: var(--color-black);
     height: 262px;
     text-align: center;
+    color: var(--color-white);
+    padding: 50px;
 }
 
 #rodape a {
@@ -107,17 +118,10 @@ nav h1 {
     color: var(--color-white);
 }
 
-#rodape p {
-    color: var(--color-white);
+#rodape-config {
+    margin-bottom: 30px;
 }
 
-#navegacao {
-    display: flex;
-    justify-content: space-between;
-}
-
-#navegacao a {
-    color: var(--color-white);
-    text-decoration: none;
-    font-size: 14px;
+#rodape-config a {
+    padding: 5px;
 }
