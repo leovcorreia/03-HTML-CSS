@@ -15,11 +15,15 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     background-color: var(--color-red);
     height: 100px;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
 nav h1 {
@@ -37,11 +41,6 @@ nav img {
     margin: 0 auto;
 }
 
-.navegacao {
-    display: flex;
-    justify-content: space-between;
-}
-
 .navegacao a {
     color: var(--color-white);
     text-decoration: none;
@@ -52,51 +51,39 @@ nav img {
     color: var(--color-white);
 }
 
-.bloco-modalities {
-    background-color: var(--bg-dark-blue);
-    padding: 20px; /*Ver essa medida dps*/
-    margin: 20px 0;
-    height: 106px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-radius: 9px;
-}
-
-.bloco-modalities h3 {
-    color: var(--color-white);
-}
-
-.bloco-modalities p {
-    color: var(--bg-gray);
-}
-
 #space {
     background-color: var(--bg-dark-blue);
     height: 418px;
-    padding: 30px 470px; /*VER ESSA MEDIDA DPS*/
+    padding: 25px; /*VER ESSA MEDIDA DPS*/
 }
 
 #space h2 {
     font-size: 32px;
     color: var(--color-white);
+    margin-bottom: 35px;
 }
 
 .bloco-space {
     background-color: var(--bg-gray);
-    border-radius: 9px;
-    margin: 20px 0; /*"espaço entre blocos*/
+    border-radius: 8px;
+    margin: 25px 0; /*"espaço entre blocos*/
     height: 127px;
-    padding: 20px; /*VER ESSA MEDIDA DPS*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    padding: 20px;
+}
+
+.bloco-space h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.bloco-space p {
+    font-size: 14px;
 }
 
 #modalities {
     background-color: var(--color-white);
     height: 880px;
-    padding: 20px 470px; /*VER ESSA MEDIDA DPS*/
+    padding: 20px; 
 }
 
 #modalities h2 {
@@ -105,23 +92,70 @@ nav img {
     margin-bottom: 40px;
 }
 
-#rodape {
+.bloco-modalities {
+    background-color: var(--bg-dark-blue);
+    padding: 20px;
+    margin: 20px 0;
+    height: 106px;
+    border-radius: 8px;
+}
+
+.bloco-modalities h3 {
+    color: var(--color-white);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.bloco-modalities p {
+    color: var(--bg-gray);
+    font-size: 14px;
+}
+
+footer {
     background-color: var(--color-black);
     height: 262px;
-    text-align: center;
-    color: var(--color-white);
-    padding: 50px;
-}
-
-#rodape a {
-    text-decoration: none;
+    padding: 40px;
     color: var(--color-white);
 }
 
-#rodape-config {
-    margin-bottom: 30px;
+footer a, a:hover{
+    color: var(--color-white);
 }
 
-#rodape-config a {
-    padding: 5px;
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-links-content a{
+    font-size: 14px;
+}
+
+.footer-links-content img {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
 }
