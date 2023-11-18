@@ -1,9 +1,55 @@
-/** {
+* {
     margin: 0;
     padding: 0;
     Box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root {
-    
+    --font-size-normal: 400;
+    --font-size-bold: 700;
+    --bg-green: #38AF90;
+    --bg-gray: #F0F0F0;
+    --text-white: #FFF;
+    --text-gray: #797979;
+    --text-red: #DD7E92;
+    --bg-dark-footer: #383838;
+}
+
+header {
+    background-color: var(--bg-green);
+    color: var(--text-white);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.container {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav h1 {
+    font-size: 18px;
+}
+
+#news {
+    background-color: var(--text-white);
+}
+
+.title-news h2 {
+    font-size: 24px;
+    color: var(--text-gray);
 }
