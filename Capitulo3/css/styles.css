@@ -47,9 +47,52 @@ nav h1 {
 
 #news {
     background-color: var(--text-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.title-news {
+    display: flex;
+    justify-content: center;
 }
 
 .title-news h2 {
     font-size: 24px;
+    font-weight: var(--font-size-bold);
+    color: var(--text-gray);
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+.card-news {
+    background-color: var(--bg-gray);
+    height: 493px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    padding: 20px 10px;
+    width: 19rem;
+}
+
+.title-card {
+    color: var(--bg-green);
+}
+
+.resume-card {
+    color: var(--text-gray);
+    font-weight: var(--font-size-bold);
+    font-size: 12px;
+}
+
+.date-card {
+    color: var(--bg-green);
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+.description-card {
+    font-size: 10px;
     color: var(--text-gray);
 }
