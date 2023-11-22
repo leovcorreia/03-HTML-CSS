@@ -57,6 +57,9 @@ nav h1 {
 .title-news {
     display: flex;
     justify-content: center;
+    width: 202px;
+    height: 36px;
+    margin-bottom: 40px;
 }
 
 .title-news h2 {
@@ -71,9 +74,9 @@ nav h1 {
     background-color: var(--bg-gray);
     height: 493px;
     border-radius: 8px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     padding: 20px 10px;
-    width: 19rem;
+    width: 300px
 }
 
 .title-card {
@@ -95,4 +98,52 @@ nav h1 {
 .description-card {
     font-size: 10px;
     color: var(--text-gray);
+}
+
+.link-card {
+    font-weight: var(--font-size-bold);
+    font-size: 14px;
+    color: var(--text-red);
+    margin-top: 10px;
+}
+
+.button-news {
+    background-color: var(--text-red);
+    color: var(--text-white);
+    border-radius: 8px;
+    width: 244px;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--font-size-bold);
+    font-size: 18px;
+}
+
+#games {
+    background-color: var(--bg-gray);
+    height: 1176px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.title-game {
+    color: var(--bg-green);
+    font-size: 24px;
+    width: 75px;
+    height: 36px;
+}
+
+.card-game {
+    width: 300px;
+    height: 326px;
+    border-radius: 8px;
+}
+
+.image-game img {
+    width: 300px;
+    height: 168px;
 }
