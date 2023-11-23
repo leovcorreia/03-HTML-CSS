@@ -54,6 +54,13 @@ nav h1 {
     padding: 10px;
 }
 
+.teste {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .title-news {
     display: flex;
     justify-content: center;
@@ -118,11 +125,11 @@ nav h1 {
     align-items: center;
     font-weight: var(--font-size-bold);
     font-size: 18px;
+    margin: 5px 0 30px 0;
 }
 
 #games {
     background-color: var(--bg-gray);
-    height: 1176px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -130,20 +137,53 @@ nav h1 {
     padding: 10px;
 }
 
-.title-game {
+.title-game h2 {
     color: var(--bg-green);
     font-size: 24px;
-    width: 75px;
-    height: 36px;
+    margin: 30px 0;
 }
 
 .card-game {
     width: 300px;
     height: 326px;
     border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.image-game {
+    display: flex;
 }
 
 .image-game img {
     width: 300px;
     height: 168px;
+    border-radius: 8px 8px 0 0;
+}
+
+.description-game {
+    background-color: var(--text-white);
+    height: 158px;
+    border-radius: 0 0 8px 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-game h3 {
+    color: var(--text-gray);
+    font-size: 18px;
+}
+
+.company-game {
+    color: var(--text-gray);
+    font-size: 12px;
+}
+
+.rating-game {
+    font-weight: var(--font-size-bold);
+    color: var(--bg-green);
+    font-size: 36px;
+    margin-top: 20px;
 }
