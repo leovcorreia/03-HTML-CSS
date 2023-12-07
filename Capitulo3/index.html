@@ -31,7 +31,7 @@
 
         <section id="news">
             <div class="container">
-                <div class="teste">
+                <div class="flexbox">
                     <div class="title-news">
                         <h2>Últimas notícias</h2>
                     </div>
@@ -80,7 +80,7 @@
 
         <section id="games">
             <div class="container">
-                <div class="teste">
+                <div class="flexbox">
                     <div class="title-game">
                         <h2>Jogos</h2>
                     </div>
@@ -130,42 +130,47 @@
                 </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Faça sua inscrição</h2>
+        <section id="subscription">
+            <div class="container">
+                <div class="flexbox">
+                    <div class="subscription-title">
+                        <h2>Faça sua inscrição</h2>
+                    </div>
+                    
+                    <form action="index.html">
+                        <div class="button-forms">
+                            <input type="text" name="name" placeholder="Nome Completo">
+                        </div>
+                        <div class="button-forms"> 
+                            <input type="email" name="email" placeholder="Email">
+                        </div>
+                        <div>
+                            <label for="">Qual sua plataforma preferida?</label>
+                            <div>
+                                <input type="radio">
+                                <label for="">PC</label>
+                            </div>
+                            <div>
+                                <input type="radio">
+                                <label for="">Playstation</label>
+                            </div>
+                            <div>
+                                <input type="radio">
+                                <label for="">Xbox</label>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="new">
+                            <label for="">Desejo receber novidades.</label>
+                        </div>
+                        <div>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Limpar">
+                        </div>
+                    </form>
+                </div>
+                
             </div>
-            
-            <form action="index.html">
-                <div>
-                    <input type="text" name="name" placeholder="Nome Completo">
-                </div>
-                <div>
-                    <input type="email" name="email" placeholder="Email">
-                </div>
-                <div>
-                    <label for="">Qual sua plataforma preferida?</label>
-                    <div>
-                        <input type="radio">
-                        <label for="">PC</label>
-                    </div>
-                    <div>
-                        <input type="radio">
-                        <label for="">Playstation</label>
-                    </div>
-                    <div>
-                        <input type="radio">
-                        <label for="">Xbox</label>
-                    </div>
-                </div>
-                <div>
-                    <input type="checkbox" name="new">
-                    <label for="">Desejo receber novidades.</label>
-                </div>
-                <div>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Limpar">
-                </div>
-            </form>
         </section>
 
     </main>

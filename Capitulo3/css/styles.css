@@ -47,14 +47,10 @@ nav h1 {
 
 #news {
     background-color: var(--text-white);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 10px;
 }
 
-.teste {
+.flexbox {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -130,10 +126,6 @@ nav h1 {
 
 #games {
     background-color: var(--bg-gray);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 10px;
 }
 
@@ -186,4 +178,32 @@ nav h1 {
     color: var(--bg-green);
     font-size: 36px;
     margin-top: 20px;
+}
+
+#subscription {
+    padding: 40px;
+}
+
+.subscription-title h2 {
+    color: var(--text-gray);
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+form {
+    background-color: var(--bg-gray);
+    height: 603px;
+    width: 300px;
+    border-radius: 8px;
+    padding: 20px 10px;
+}
+
+.button-forms input {
+    width: 280px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid var(--text-gray);
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 18px;
 }
