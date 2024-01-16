@@ -270,4 +270,27 @@ form {
     flex-direction: column;
     align-items: center;
     margin: 20px 0;
+    font-size: 14px;
+}
+
+.footer-social-media a {
+    margin: 5px;
+}
+
+.footer-rights {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px;
+}
+
+.footer-privacy {
+    font-size: 14px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-privacy a {
+    margin: 5px;
 }
